@@ -85,6 +85,19 @@ public class Principalcinedev{
             System.out.println("Erro: assento inválido ou já estava livre.");
         }
     }
+     // Exibi relatório ded ocupação da sala 
+    private static void exibir(Cinema cinema) {
+        int total = cinema.totalAssentos();
+        int ocupados = cinema.contarOcupados();
+        int livres = total - ocupados;
+        double percentual = (ocupados / (double) total) * 100.0;
 
+        System.out.println("\n--- Relatório ---");///n para quebra de linha 
+        System.out.println("Total de assentos: " + total);
+        System.out.println("Assentos ocupados: " + ocupados);
+        System.out.println("Assentos livres: " + livres);
+        System.out.printf("Percentual de ocupação: %.2f%%\n", percentual);
+    }
+   
 }
 
