@@ -1,8 +1,8 @@
 # trabalho-pratico-java-cinedev
 
-Nome: Julia Peixoto Rodrigues 
+Nome: Julia Peixoto Rodrigues e Ana Clara dos Reis 
 
-Matricula: 369150
+Matricula: 369150, 408200
 
 Introdução: 
 A rede de cinemas CineDev necessitava de um sistema simples, para gerenciar a venda de ingressos e a ocupação de assentos em suas salas de cinema. Esse controle era feito totalemente de forma manual, o que gerava filas, erros na venda de ingressos e insatisfação dos clientes.
